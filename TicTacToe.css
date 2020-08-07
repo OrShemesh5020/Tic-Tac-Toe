@@ -1,0 +1,51 @@
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.container {
+  display: none;
+  width: fit-content;
+  height: fit-content;
+}
+.border {
+  /* display: none; */
+  width: 299px;
+  height: 299px;
+  /* height: fit-content; */
+}
+.gameSettings {
+  float: left;
+}
+.gameSettings div {
+  margin-bottom: 15px;
+}
+.gameSettings .difficulty{
+  display: none;
+}
+.message {
+  text-align: center;
+  display: none;
+  width: 100%;
+  /* height: fit-content; */
+  font-size: 60px;
+}
+.div {
+  /* height: 98px; */
+  /* padding: 0px; */
+  /* height: fit-content; */
+  /* border: black solid 2px; */
+  /* border-bottom: black solid 3px; */
+}
+
+.border .button {
+  position: relative;
+  width: 98px;
+  height: 98px;
+  border: black solid 2px;
+  /* padding: 0px; */
+  font-size: 70px;
+}
